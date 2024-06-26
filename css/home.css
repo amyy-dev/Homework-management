@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+  body{
+    background: #e7edfd;
+  }
+
+  .nav__content {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    box-shadow: 10px 0 10px -10px rgba(0, 0, 0, 0.1); 
+
+  }
+  
+  nav .logo a {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 25px;
+    color: #5096f2;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .profil-icon{
+    font-size: 40px; 
+    margin-right: 8px;
+    color: #f96565;
+  }
+
+  nav .user-name {
+    margin-left: auto;
+    margin-right: 8px;
+    font-size: 15px; 
+    font-weight: bold;
+    color: #f96565; 
+}
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    padding: 10px 14px;
+    background-color: #ffffff;
+    margin-top: 60px;
+  }
+
+  .sidebar .text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5096f2;
+  }
+
+  .sidebar li{
+    height: 50px;
+    background:#ffffff;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar li .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+  }
+
+  .sidebar li .icon,
+  .sidebar li .text{
+    color: #5096f2;
+    transition: 0.2s;  
+  }
+
+  .sidebar li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+
+  .sidebar li a.log{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    border: #f96565 solid 1.6px;
+  }
+
+  .sidebar li a:hover{
+    background: #5096f2;
+  }
+
+  .sidebar li a.log:hover{
+    background: #ffffff;
+  }
+
+  .active{
+    background: #5096f2;
+  }
+
+  .sidebar li a:hover .icon,
+  .sidebar li a:hover .text{
+    color: rgb(255, 255, 255);  
+  }
+
+  .sidebar li .icon-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+
+  .sidebar li .text-active{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+
+  .sidebar li .icon-log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+    font-size: 20px;
+    color: #f96565;
+  }
+
+  .sidebar li .text-log{
+    font-size: 16px;
+    font-weight: 500;
+    color: #f96565;
+  }
+
+  .sidebar .menu-bar{
+    height: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .h{
+    width: 100%;
+    height: 2px;
+    border: 0 none;
+    background-color: #deeafb;
+  }
+
+  .mytable {
+    top: 0;
+    right: 0;
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 50px; 
+    padding: 20px;
+    height: 100%;
+    width: 79.5%;
+    background-color: #deeafb;
+}
+
+.mytable table {
+    width: 100%;
+    border-top: #5096f2 solid 2px;
+
+}
+
+.mytable th,
+.mytable td {
+    padding: 10px;
+    text-align: center;
+}
+
+.mytable th {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.mytable tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.stl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+}
+
+.stl h1 {
+  margin: 0; 
+  font-size: 15px;
+  font-weight: 700;
+  color: #5096f2;/* Remove default margin */
+}
+
+.stl button{
+  background-color: #5096f2; 
+  margin-left: 635px;
+  color: #ffffff;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+.stl  button:hover {
+  background-color: #ffffff;
+  color: #5096f2;
+ 
+}
+
+.mytable h1 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5096f2;
+}
+
+#homeworkForm label {
+  font-size: 14px; 
+  color: #5f5f5f; 
+  font-weight: bold; 
+  display: block; 
+  padding: 6px; 
+  margin-bottom: 10px; 
+}
+
+#homeworkForm input[type="file"] {
+  width: 95%; 
+  padding: 6px; 
+  margin-bottom: 10px;
+}
+
+#homeworkForm button[type="submit"] {
+  margin-top: 1px;
+  padding: 7px 18px; 
+  background-color: #5096f2; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-left: 780px;
+
+}
+
+#homeworkForm button[type="submit"]:hover {
+  background-color: #5096f2; 
+}
+
+.mytable .desc {
+  display: flex;
+  align-items: center;
+}
+.mytable .homdesc h1 {
+  margin: 0; 
+  font-size: 15px;
+  font-weight: 700;
+  color: #525253;
+}
+
+.mytable .desc .content {
+  padding: 2rem;
+  background: rgb(255, 255, 255);
+  border-radius: 7px;
+  border-bottom: 2px solid #b8b7b7;
+  border-right: 2px solid #b8b7b7;
+  width: 1050px;
+}
+
+.mytable .desc .content p {
+  font-size: 16px;
+  color: #525253;
+  line-height: 1.8;
+}
+
+.mytable .desc .descfile {
+  flex: 1 1 41rem;
+  padding: 3rem; 
+}
+
+.filenames {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.filenames h1 {
+  margin: 0; 
+  font-size: 15px;
+  font-weight: 700;
+  color: #525253;
+}
+
+
+

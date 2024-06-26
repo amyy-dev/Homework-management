@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* .form-container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+} */
+
+.form-container h2 {
+    text-align: center;
+}
+
+/* .form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form label {
+    margin-bottom: 10px;
+} */
+
+/* .form-container form input[type="text"],
+.form-container form input[type="submit"] {
+    width: 100%;
+    height: 35px;
+    background: hsl(214, 86%, 63%);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+} */
+
+.form-container form input[type="submit"] {
+    height: 35px;
+    background: hsl(214, 86%, 63%);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.form-box form .field{
+    display: flex;
+    margin-bottom: 8px;
+    flex-direction: column;
+
+}
+/* .form-box form .input input{
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.btn{
+    height: 35px;
+    background: hsl(214, 86%, 63%);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover{
+    opacity: 0.82;
+} */
+/* تعديل حجم خانات الإدخال */
+.form-box form .input input {
+    height: 40px; /* ارتفاع الخانة */
+    width: 100%; /* العرض */
+    font-size: 16px; /* حجم الخط */
+    padding: 0 15px; /* هامش داخلي */
+    border-radius: 8px; /* شكل الزوايا */
+    border: 1px solid #ccc; /* سمك ولون الحدود */
+    outline: none; /* إزالة التأثير عند التركيز */
+}
+
+/* تنسيق زر الإرسال */
+.btn {
+    height: 40px; /* ارتفاع الزر */
+    background: hsl(214, 86%, 63%); /* لون الخلفية */
+    border: 0; /* إزالة الحدود */
+    border-radius: 8px; /* شكل الزوايا */
+    color: #fff; /* لون النص */
+    font-size: 16px; /* حجم الخط */
+    cursor: pointer;
+    transition: all 0.3s; /* تأثير التحول */
+    margin-top: 10px; /* هامش أعلى */
+    padding: 0 20px; /* هامش داخلي */
+}
+
+/* تغيير اللون عند تحويل المؤشر */
+.btn:hover {
+    opacity: 0.9; /* تغيير الشفافية */
+}
